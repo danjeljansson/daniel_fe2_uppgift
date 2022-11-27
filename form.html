@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <title>create event</title>
+</head>
+<body>
+    
+    <div class="main">
+        <header>
+            <div>
+                <a href="index.html"><img src="media/fancytext.svg" style="width: 10em; left: 0.5em; top: 2em; align-items: center;" class="header" alt="" alt=""></a>
+            </div>
+        </header>
+
+    <nav id="links"> 
+        <a href="index.html" class="linkButton">home</a> <br>
+        <a href="event_list.html" class="linkButton">events</a> <br>
+        <a href="form.html" class="linkButton">create&nbspevent</a> <br>
+        <a href="aboutus.html" class="linkButton">about&nbspus</a>
+    </nav>
+
+    <main class="form-container">
+        <form class="form-event" action="">
+
+            <div class="form-event">
+                
+                <label for="lname"></label>
+                <input type="text" name="lname" id="lname" style="width: 20vw; height: 4vh" placeholder="event name"><br>
+
+                <label for="date"></label>
+                <input type="date" name="date" style="width: 20vw; height: 4vh" id="date"><br>
+
+                <label for="form-description"></label>
+                <input type="text"  name="form-description" id="form-description" style="width: 20vw; height: 10vh;" placeholder="description"><br>
+                
+                <label for="agenda"></label>
+                <input type="text" name="agenda" id="agenda" style="width: 20vw; height: 4vh" placeholder="agenda"><br>
+
+                <label for="images">select image
+                <input type="file" accept="image/*.jpg" id="images">
+                </label><br>
+
+                <label for="category"></label>
+                <select name="category" id="category" style="width: 10vw; height: 4vh">
+                    <option value="category">select category</option>
+                    <option value="club">club night</option>
+                    <option value="concert">concert</option>
+                    <option value="other-event">other event</option>
+                </select>
+
+                <label for="submit"></label>
+                <input type="submit" name="submit" id="form-btn-submit" style="width: 20vw; height: 4vh" value="submit">
+              
+            </div>
+
+        </form>
+    </main>
+
+    <div>
+
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!-- saved from url=(0091)http://127.0.0.1:5500/Nackademin/frontend2-htmlcss/invid%20uppgift/daaaaanjellll/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Document_files/styles.css">
+    <script src="./Document_files/index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+
+<div class="main">
+
+    <dialog class="modal" id="modal">
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam dolorum a eius ex labore optio sint fuga aspernatur alias esse,
+            eligendi perferendis voluptate ducimus nisi repudiandae tenetur, modi dignissimos iure.
+            <a href="http://127.0.0.1:5500/Nackademin/frontend2-htmlcss/invid%20uppgift/daaaaanjellll/details.html" class="toevent-page">to event page</a>
+        </p>
+        <button class="index-btn-close">x</button>
+    </dialog>
+
+        <nav id="links"> 
+            <a href="http://127.0.0.1:5500/Nackademin/frontend2-htmlcss/invid%20uppgift/daaaaanjellll/index.html" class="linkButton">home</a> <br>
+            <a href="http://127.0.0.1:5500/Nackademin/frontend2-htmlcss/invid%20uppgift/daaaaanjellll/event_list.html" class="linkButton">events</a> <br>
+            <a href="http://127.0.0.1:5500/Nackademin/frontend2-htmlcss/invid%20uppgift/daaaaanjellll/form.html" class="linkButton">create&nbsp;event</a> <br>
+            <a href="http://127.0.0.1:5500/Nackademin/frontend2-htmlcss/invid%20uppgift/daaaaanjellll/aboutus.html" class="linkButton">about&nbsp;us</a> <br>
+        </nav>
+
+
+    <div class="content">
+        <img src="./Document_files/hero.jpg" class="hero" alt="hero">
+ 
+        <div class="event-wrapper">
+
+            <div class="event">
+                <img src="./Document_files/event.jpg" class="event-image" alt="event-0">
+                <div class="index-description">
+                    <div id="indexBox">
+                        <p>
+                        </p>
+                    </div>
+                </div>
+                <button class="index-btn-open">More Info</button>
+            </div>
+
+            <div class="event">
+                <img src="./Document_files/event1.jpg" class="event-image" alt="event-1">
+                <div class="index-description">
+                    <div id="indexBox">
+                        <p>
+                        </p>
+
+                    </div>
+                </div>
+                <button class="index-btn-open">More Info</button>
+            </div>
+
+            <div class="event">
+                 <img src="./Document_files/event2.jpg" class="event-image" alt="event-2">
+                <div class="index-description">
+                    <div id="indexBox">
+                        <p>
+                        </p>
+                    </div>
+                </div>
+                <button class="index-btn-open">More Info</button>
+            </div>
+
+            <div class="event-break">
+            <div class="event-image"></div>
+            <div class="index-description"></div>
+            </div>
+
+
+            <div class="event">
+                <img src="./Document_files/event3.jpg" class="event-image" alt="event-3">
+                <div class="index-description">
+                    <div id="indexBox">
+                        <p>
+
+                        </p>
+                    </div>
+                </div>
+                <button class="index-btn-open">More Info</button>
+            </div>
+
+            <div class="event">
+                <img src="./Document_files/event4.jpg" class="event-image" alt="event-4">
+                <div class="index-description">
+                    <div id="indexBox">
+                        <p>
+                            
+                        </p>
+                    </div>
+                </div>
+                <button class="index-btn-open">More Info</button>
+            </div>
+
+            <div class="event">
+                <img src="./Document_files/event5.jpg" class="event-image" alt="event-5">
+                <div class="index-description">
+                    <div id="indexBox">
+                        <p>
+
+                        </p>
+                    </div>
+                </div>
+                <button class="index-btn-open">More Info</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Code inject--></body></html>
